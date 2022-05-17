@@ -7,6 +7,6 @@ sudo ufw status
 sudo ufw enable
 sudo ufw status
 sudo apt install mysql-server -y
-sudo mysql
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'root';
-exit
+sudo mysql -h "hostname" -u usr_name -pPASSWD "db_name" < sql_script_file
+# ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'root';
+# exit
