@@ -24,4 +24,4 @@
 #sudo cp mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
 #sudo systemctl restart mysql
 #sh createUser.sh
-sudo mysql -u ubuntu -p Ubuntu@123 college_mgmt < updateDB.sql
+sudo mysql -u ubuntu -pUbuntu@123 college_mgmt < updateDB.sql
