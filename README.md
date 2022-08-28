@@ -4,6 +4,6 @@ Update base url in CollegeMgmt/application/config/config file with IP address of
 
 then run the script
 
-apacheMySQLSetup.sh
+deployServer.sh
 
 
