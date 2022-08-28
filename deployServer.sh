@@ -13,14 +13,15 @@
 #php -v
 #sudo a2enmod rewrite
 #sudo systemctl restart apache2
-sudo chmod 777 -R /etc/apache2/apache2.conf
-sudo mv /etc/apache2/apache2.conf /etc/apache2/apache2_old.conf
-sudo cp apache2.conf /etc/apache2/apache2.conf
-sudo systemctl restart apache2
-#sudo chmod 777 -R /var/www/html
-#sudo mv /etc/mysql/mysql.conf.d/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld_old.cnf
-#sudo cp mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
-#sudo systemctl restart mysql
+#sudo chmod 777 -R /etc/apache2/apache2.conf
+#sudo mv /etc/apache2/apache2.conf /etc/apache2/apache2_old.conf
+#sudo cp apache2.conf /etc/apache2/apache2.conf
+#sudo systemctl restart apache2
+sudo chmod 777 -R /var/www/html
+sudo chmod 777 -R /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo mv /etc/mysql/mysql.conf.d/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld_old.cnf
+sudo cp mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo systemctl restart mysql
 #sh createUser.sh
 #sudo mv CollegeMgmt /var/www/html
 #mysql -u ubuntu -p Ubuntu@123 college_mgmt < updateDB.sql
