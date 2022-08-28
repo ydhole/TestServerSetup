@@ -21,4 +21,5 @@ sudo mv /etc/mysql/mysql.conf.d/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld_old.cn
 sudo cp mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
 sudo systemctl restart mysql
 sh createUser.sh
+sudo mv CollegeMgmt /var/www/html
 mysql -u ubuntu -p Ubuntu@123 college_mgmt < updateDB.sql
