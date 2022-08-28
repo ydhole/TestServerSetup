@@ -1,0 +1,3 @@
+# TestServerSetup
+
+Run apacheMySQLSetup.sh
