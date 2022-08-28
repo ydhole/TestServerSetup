@@ -7,6 +7,10 @@ sudo ufw status
 sudo ufw enable
 sudo ufw status
 sudo apt install mysql-server -y
-# sudo mysql -h "hostname" -u usr_name -pPASSWD "db_name" < sql_script_file
-# ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'root';
-# exit
+sudo chmod +x secure_mysql.sh
+sh secure_mysql.sh
+sudo apt install php libapache2-mod-php php-mysql -y
+php -v
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+sudo nano /etc/apache2/apache2.conf
