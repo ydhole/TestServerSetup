@@ -8,7 +8,7 @@
 #sudo ufw status
 #sudo apt install mysql-server -y
 #sudo chmod +x secure_mysql.sh
-sh secureMySQL.sh
+#sh secureMySQL.sh
 #sudo apt install php libapache2-mod-php php-mysql -y
 #php -v
 #sudo a2enmod rewrite
