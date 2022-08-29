@@ -13,7 +13,7 @@ sudo ufw status
 
 # Install MySQL Server
 sudo apt install mysql-server -y
-sudo chmod +x secure_mysql.sh
+sudo chmod +x secureMySQL.sh
 sh secureMySQL.sh
 
 # Install PHP 
