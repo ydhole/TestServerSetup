@@ -6,7 +6,7 @@ Update base url in CollegeMgmt/application/config/config file with IP address of
 
 Connect the instance using putty and then run the below script
 ```
-git clone (this repository link)
+git clone https://github.com/SmithaVerity/TestServerSetup.git
 cd TestServerSetup/
 sh deployServer.sh
 ```
