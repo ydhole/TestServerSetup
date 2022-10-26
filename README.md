@@ -1,6 +1,6 @@
 # TestServerSetup
 
-Create an ubuntu instance.
+Create an ubuntu instance. T2-Micro/ Open HTTP port
 
 Update base url in CollegeMgmt/application/config/config file with IP address of the instance
 
